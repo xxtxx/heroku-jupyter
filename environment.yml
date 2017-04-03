@@ -1,5 +1,6 @@
-name: ipython-notebook
+name: root
 dependencies:
+  - python=3.5
   - notebook
   - ipywidgets
   - requests
@@ -11,6 +12,17 @@ dependencies:
   - six
   - sqlalchemy
   - nose
+  # Additional dependencies
+  - numpy 
+  - scipy
+  - scikit-learn
+  - matplotlib 
+  - pandas 
+  - pillow 
+  - graphviz
+  -c conda-forge tensorflow
   - pip:
     - git+git://github.com/pl31/pgcontents.git
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+    - graphviz
+    - keras
