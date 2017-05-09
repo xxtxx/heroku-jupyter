@@ -1,9 +1,10 @@
 name: root
 dependencies:
-  - python=3.5
+  - python=3.6
   - notebook
   - ipywidgets
   - requests
+  - plotly
   # get dependencies for pgcontents
   - certifi
   - click
@@ -26,3 +27,4 @@ dependencies:
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
     - graphviz
     - keras
+    - seaborn
